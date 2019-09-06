@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "235165950457",
+    "firebase_url": "https://thingqbator-b64e3.firebaseio.com",
+    "project_id": "thingqbator-b64e3",
+    "storage_bucket": "thingqbator-b64e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235165950457:android:7787d7dcb80d714b",
+        "android_client_info": {
+          "package_name": "com.example.thingqbator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "235165950457-e970etk4jid3sdbf53pe71o4irms0m5j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.thingqbator",
+            "certificate_hash": "6857771d0f478bf910e2e44fe267a80cf2fc7f3e"
+          }
+        },
+        {
+          "client_id": "235165950457-fup290mhm775n0dt61843ve4hvl7g9cl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa0MFxZTySDgJA8xOYRwEUnHLMIMqWFDQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "235165950457-fup290mhm775n0dt61843ve4hvl7g9cl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

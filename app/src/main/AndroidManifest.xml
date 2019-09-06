@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.thingqbator">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/iconag"
+        android:label="AudioGuide"
+        android:roundIcon="@mipmap/iconag"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".audio"
+            android:launchMode="singleTop"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/frew">
+            <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/frew">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SET_ALARM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".audiophnnum"
+            android:launchMode="singleTop"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/frew">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".OtpActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName=".audiophnnum"
+            android:theme="@style/frew">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".audiophnnum" />
+        </activity>
+        <activity
+            android:name=".phonenumtwo"
+            android:launchMode="singleTop"
+            android:parentActivityName=".scanne"
+            android:theme="@style/frew">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".scanne" />
+        </activity>
+        <activity
+            android:name=".otpTwo"
+            android:launchMode="singleTop"
+            android:parentActivityName=".phonenumtwo"
+            android:theme="@style/frew">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".phonenumtwo" />
+        </activity>
+        <activity
+            android:name=".scanne"
+            android:launchMode="singleTop"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/frew">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:screenOrientation="fullSensor"
+            tools:replace="screenOrientation" />
+        <activity
+            android:name=".alar"
+            android:launchMode="singleTop"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/frew">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+        </activity>
+
+    </application>
+
+</manifest>
